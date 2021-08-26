@@ -1,7 +1,14 @@
 # IC-7300-time-sync
-Python3 script to sync the radio's clock with your computer via CAT commands.
+Python3 script to sync the ICOM IC-7300 radio's clock (date and time) with your computer via CAT commands.
 
-At the top of the script are a few variables you'll have to set.  The serial device name your 7300 is at, a GMT offset if your computer clock is set to local time and you want the radio on GMT.   The rest of the script is commented and should be self-explainatory.  
+The latest script is Set_IC7300_date_time.py as modified by AD0YO
+The original script is Set_IC7300_time.py as written by loughkb
+
+At the top of the script are a few variables you'll have to set.
+The serial device name your 7300 is at and the baudrate.
+Whether to use local or gmt.
+you can set the verbose to True to get a little output.
+The rest of the script is commented and should be self-explainatory.  
 
 You can run it manually from the terminal, or set it up as a cron job to automatically update the radio clock at an interval.  
 
